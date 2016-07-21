@@ -10,7 +10,7 @@ var bio = {
     },
     "welcomeMessage": "Welcome to my resume page!",
     "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Dry Humor"],
-    "biopic": ""
+    "biopic": "file:///Users/Di_Al-Malik1/Desktop/19805033.jpg"
 };
 
 // function that displays information from the bio object on the page
