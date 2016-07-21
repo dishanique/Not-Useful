@@ -1,2 +1,1 @@
-# Udacity_FEND_P4
-Resume
+Resume will built using JavaScript
