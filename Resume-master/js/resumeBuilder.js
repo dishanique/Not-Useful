@@ -40,8 +40,6 @@ bio.display = function() {
 
     var welcomeMessage = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
     $("#header").append(welcomeMessage);
-
-    $("#footerContacts").append(HTMLtwitter.replace("#", bio.contacts.twitter));
     $("#footerContacts").append(HTMLgitHub.replace("#", bio.contacts.github));
     $("#footerContacts").append(HTMLlinkedIn.replace("#", bio.contacts.linkedin));
 
@@ -183,4 +181,4 @@ work.display();
 
 // Interactive map and twitter feeds
 $("#mapDiv").append(googleMap);
-$("#twitterDiv").append(twitterFeed);
+
