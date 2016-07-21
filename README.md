@@ -1,1 +1,1 @@
-Resume will built using JavaScript
+Built a responsive online resume using HTML, CSS, JavaScript, and JQuery.
