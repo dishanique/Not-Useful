@@ -95,7 +95,7 @@ var education = {
         "degree": "Bachelors of Arts",
         "majors": ["Strategic Communications", "Public Relations"],
         "dates": "8/2011 - 12/2014",
-        "url": "http://www.auburn.edu"
+        "url": "http://www.temple.edu"
     }],
     "onlineCourses": [{
         "title": "Front-End Developer Nanodegree",
