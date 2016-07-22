@@ -49,13 +49,13 @@ bio.display();
 
 // projects object- project information
 var projects = {
-    "projects": [{
+    "projects": [
         "title": "Portfolio",
         "url": "https://github.com/dishanique/Udacity_FEND_P3",
         "dates": "6/2016",
         "description": "Built a responsive portfolio utilizing HTML, CSS, JavaScript, and JQuery. I even got a little fancy with using Bootstrap!",
         "images": ["file:///Users/Di_Al-Malik1/Desktop/Life-Front-End-Developer-Feature_1290x688_KL.jpg"]
-    }, {
+    }, 
         "title": "Animal Trading Card",
         "url": "https://github.com/dishanique/Udacity_FEND_P2",
         "dates": "6/2016",
@@ -67,7 +67,8 @@ var projects = {
         "url": "https://github.com/dishanique/Udacity_FEND_P1",
         "dates": "6/2016",
         "description": "Built a Blog Mockup from PDF format using basic HMTL elements.",
-        "images": ["file:///Users/Di_Al-Malik1/Desktop/1469033915585.png"]
+        "images": ["file:///Users/Di_Al-Malik1/Desktop/1469033915585.png"
+        }
     ]
 };
 
@@ -89,20 +90,23 @@ projects.display();
 
 // education object- school and course information
 var education = {
-    "schools": [{
-        "name": "Temple University",
+    "schools": [
+    {   "name": "Temple University",
         "location": "Philadelphia, PA",
         "degree": "Bachelors of Arts",
         "majors": ["Strategic Communications", "Public Relations"],
         "dates": "8/2011 - 12/2014",
         "url": "http://www.temple.edu"
-    }],
-    "onlineCourses": [{
+    }
+    ],
+    "onlineCourses": [
+        {
         "title": "Front-End Developer Nanodegree",
         "school": "Udacity",
         "dates": "6/2016 - 9/2016",
         "url": "http://www.udacity.com"
-    }]
+    }
+    ]
 };
 
 // function that displays college and online course info from education object on the page
@@ -130,28 +134,28 @@ education.display();
 
 // work object- job information
 var work = {
-    "jobs": [{
+    "jobs": [
+        {
         "employer": "Self-Employed",
         "title": "Freelance Web Developer",
         "location": "Philadelphia, PA",
         "dates": "06/2016 - present",
         "description": "Developing and designing beautiful, fun, and clean web experiences while simplifying complex systems in the most creative ways possible."
     },
-    }, {
+        {
         "employer": "Net-a-Porter",
         "title": "Sales and Customer Care Consultant",
         "location": "Mahwah, NJ",
         "dates": "4/2015 - 6/2015",
         "description": "Achieved sales performance of exceeding monthly goals while maintaining a book of clientele providing sales of luxury clothing, shoes, and accessories."
-    }, {
+    }, 
+    {
         "employer": "Apple",
         "title": "Specialist",
         "location": "Ardmore, PA",
         "dates": "9/2014 - 2/2015",
         "description": "Achieved outstanding performance if becoming a Certified Apple Technician, trained and mentored employees within Apple retail store, performed technical troubleshooting abilities and repairs of Apple devices, and organized team building activities and events."
-    }]
     }
-
     ]
 };
 
